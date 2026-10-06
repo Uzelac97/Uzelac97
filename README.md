@@ -31,8 +31,13 @@ I build production web apps and automations that save businesses hours every wee
 
 **[Summit Roofing – AI Quote Generator](https://github.com/Uzelac97/summit-roofing-ai-quote-generator)**: turns a customer's roof photo and description into a priced PDF quote.
 - Claude analyzes the photo and description; prices come only from the business's own price list
-- Owner reviews every quote, can correct quantities, and the revised PDF is sent automatically
+- Owner reviews every quote, can correct quantities, and the revised PDF is sent after the owner approves
 - Confidence and urgency flags, error alerts and a quote log in Google Sheets
+
+**[Summit Inbox Agent](https://github.com/Uzelac97/summit-inbox-agent)**: Claude classifies emails into six categories and extracts customer details.
+- Replies are Gmail drafts, never sent automatically
+- Complete quote requests are forwarded to the quote generator through a secured webhook
+- Python, Gmail API, 21-case evaluation set
 
 ### 📌 Other projects
 
